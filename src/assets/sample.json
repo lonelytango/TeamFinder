@@ -1,0 +1,602 @@
+[
+  {
+    "timezone": "EST",
+    "availability": "Weekend",
+    "dedication": "1-3",
+    "grade": "B or better",
+    "role": ["frontend", "project management"],
+    "category": "Hardware interface",
+    "title": "AI-Driven Robotics Controller",
+    "content": "Our team is looking for students who are passionate about the intersection of software and physical hardware. We are developing an interface that allows for high-level AI commands to be translated into specific movements for a ClawBot-style robotics kit. The project will involve creating a React-based dashboard that visualizes sensor data in real-time while providing a clean control scheme for the user. Since we are all working jobs during the week, we plan to keep the workload light—roughly 1 to 3 hours on Saturdays—to ensure we hit our 'B or better' target without burning out."
+  },
+  {
+    "timezone": "PST",
+    "availability": "After work hours",
+    "dedication": "10-20",
+    "role": ["backend", "frontend"],
+    "grade": "A",
+    "category": "Social platform",
+    "title": "Gamified Peer-to-Peer Tutoring",
+    "content": "We are building a social platform designed to connect graduate students for peer-to-peer tutoring, but with a unique RPG-style gamification layer. Students earn 'experience points' and badges for helping others, which can be showcased on their profiles. We need a strong backend developer to handle the PostgreSQL database and complex matchmaking logic, as well as a frontend developer to build the quest-like UI. Because we are aiming for an 'A', we are looking for teammates who can commit 10 to 20 hours a week. Most of our sync-up meetings will happen in the evenings after 6 PM PST."
+  },
+  {
+    "timezone": "CST",
+    "availability": "Weekday",
+    "dedication": "3-10",
+    "role": ["designer", "frontend"],
+    "grade": "B or better",
+    "category": "Media discovery",
+    "title": "Underground Cinema Discovery Engine",
+    "content": "Our project, 'IndieLens,' is a media discovery tool that helps film students find obscure, independent movies that aren't available on mainstream streaming services. We are looking for a designer to create a cinematic and immersive UI, and a frontend developer to implement a smooth, Netflix-style browsing experience. We intend to work primarily on Tuesday and Thursday afternoons. We are aiming for a solid 'B or better' and want to focus on high-quality UX and a unique aesthetic that reflects the independent film scene."
+  },
+  {
+    "timezone": "EST",
+    "availability": "All hours",
+    "dedication": "20+",
+    "role": ["backend", "project management"],
+    "grade": "A",
+    "category": "AI platform",
+    "title": "Context-Aware Research Summarizer",
+    "content": "This project involves building a sophisticated AI platform that can ingest hundreds of academic PDFs and generate a synthesized literature review. It is an ambitious undertaking that requires a robust Python backend to manage LLM API calls and a project manager who is comfortable with Agile methodologies to keep us on schedule. We are fully committed to this project and are looking for individuals who can treat this like a full-time internship, dedicating 20+ hours a week. Our goal is a definitive 'A' and potentially a publication-ready prototype by the end of the semester."
+  },
+  {
+    "timezone": "Others",
+    "availability": "Weekend",
+    "dedication": "3-10",
+    "role": ["frontend"],
+    "grade": "C or better",
+    "category": "Authentication interface",
+    "title": "Biometric Simulation Interface",
+    "content": "We are exploring the usability of biometric authentication methods. Our project is to build an authentication interface that simulates various login flows like facial recognition, fingerprint scanning, and voice patterns to test user friction. We need a frontend developer who can build these interactive mockups. This is a great project for someone who is balanced with other courses and just wants to learn the basics of auth flows. We are aiming for a 'C or better' and will focus our efforts on Saturday mornings to get the work done efficiently without midweek stress."
+  },
+  {
+    "timezone": "PST",
+    "availability": "After work hours",
+    "dedication": "1-3",
+    "role": ["designer"],
+    "grade": "B or better",
+    "category": "Mobile app",
+    "title": "National Park Trail Finder",
+    "content": "Our team is developing a lightweight mobile app that helps hikers find less-crowded trails in National Parks based on live data. We have the technical logic largely figured out, but we lack a designer to make the app feel professional and easy to use on a small screen. We are only looking for a commitment of 1 to 3 hours a week, mostly for feedback sessions and small asset creation. If you enjoy nature and want to contribute to a cool portfolio piece while maintaining a 'B or better' average, we would love to have you join us."
+  },
+  {
+    "timezone": "EST",
+    "availability": "Weekday",
+    "dedication": "10-20",
+    "role": ["backend"],
+    "grade": "A",
+    "category": "Collaborative tool",
+    "title": "Real-time Distributed Whiteboard",
+    "content": "We are building a collaborative tool that allows distributed engineering teams to whiteboard complex system architectures in real-time. This project requires a backend developer who is very comfortable with WebSockets and handling concurrent data updates with minimal latency. We are aiming for an 'A' and expect to put in significant effort during normal business hours to treat this like a professional software engineering project. If you are looking to sharpen your skills in real-time systems and collaborative software, this is the right team for you."
+  },
+  {
+    "timezone": "CST",
+    "availability": "Weekend",
+    "dedication": "3-10",
+    "role": ["frontend", "designer"],
+    "grade": "B or better",
+    "category": "Chat bot",
+    "title": "Philosophy-Based Ethics Bot",
+    "content": "Our project is a chatbot that engages users in Socratic dialogue to help them explore ethical dilemmas. We need a frontend developer to create a 'conversational' interface that feels natural and a designer to help with the character personality and visual assets. We are mostly available on weekends to collaborate, so this is a great fit for someone with a busy weekday schedule. We are aiming for a 'B or better' and want to create a fun, educational tool that actually makes people think about their choices."
+  },
+  {
+    "timezone": "EST",
+    "availability": "After work hours",
+    "dedication": "3-10",
+    "role": ["project management"],
+    "grade": "B or better",
+    "category": "AI platform",
+    "title": "Prompt Engineering Workbench",
+    "content": "We are building an AI platform designed specifically for prompt engineers to test and version-control their prompts across different models. The project is technically sound, but we need a project manager to help us organize our documentation and ensure our deliverables align with the course rubric. If you are interested in the AI space and are a highly organized person, this would be a perfect role. We plan to meet twice a week after work hours and are aiming for a 'B or better' to ensure a high-quality finish without excessive overtime."
+  },
+  {
+    "timezone": "PST",
+    "availability": "Weekday",
+    "dedication": "10-20",
+    "role": ["frontend", "backend"],
+    "grade": "A",
+    "category": "Mobile app",
+    "title": "Campus Safe-Walk Logistics",
+    "content": "This mobile app is designed to help students coordinate 'safe-walk' groups on campus during late hours. It involves a lot of real-time mapping and user authentication, so we are looking for a dedicated frontend and backend developer. We are aiming for an 'A' and want to build something that could potentially be adopted by campus security. We expect a commitment of 10 to 20 hours a week, with most of our collaborative coding sessions happening during the day on Monday, Wednesday, and Friday. Join us if you want to work on a project with a social impact."
+  },
+  {
+    "timezone": "Others",
+    "availability": "All hours",
+    "dedication": "20+",
+    "role": ["designer", "frontend"],
+    "grade": "A",
+    "category": "Social platform",
+    "title": "Global Student Exchange Hub",
+    "content": "We are creating a social platform that allows international students to swap housing and cultural tips before moving abroad. This is a large-scale project that needs a very talented designer to handle the cultural nuances of the UI and a frontend developer capable of building a complex, responsive web application. We are in the 'All hours' category because our team is spread across different timezones, and we are aiming for an 'A'. If you have a high capacity for work and want to build a truly global product, please reach out."
+  },
+  {
+    "timezone": "CST",
+    "availability": "Weekend",
+    "dedication": "1-3",
+    "role": ["backend"],
+    "grade": "C or better",
+    "category": "Media discovery",
+    "title": "Niche Genre Music Tagger",
+    "content": "Our project is a simple media discovery tool that uses a public API to categorize music into hyper-niche genres like 'Lo-fi Synthwave' or 'Atmospheric Black Metal.' We need a backend person to handle the data fetching and basic sorting logic. This is a very low-stress project aimed at a 'C or better' grade, perfect for someone who just needs a team to fulfill the course requirement. We only plan to meet for about an hour on Sunday afternoons to check in on our progress."
+  },
+  {
+    "timezone": "EST",
+    "availability": "After work hours",
+    "dedication": "3-10",
+    "role": ["frontend", "designer"],
+    "grade": "B or better",
+    "category": "Collaborative tool",
+    "title": "Shared Household Inventory",
+    "content": "We are building a collaborative tool for roommates to track shared household supplies like groceries and cleaning products. It will include features for scanning barcodes and setting low-stock alerts. We need a frontend developer and a designer to make the interface look clean and intuitive. Most of our work will happen between 7 PM and 10 PM EST. We are aiming for a 'B or better' and want to create a tool that is genuinely useful for our own homes while we learn about state management in React."
+  },
+  {
+    "timezone": "PST",
+    "availability": "Weekday",
+    "dedication": "10-20",
+    "role": ["backend", "project management"],
+    "grade": "B or better",
+    "category": "Hardware interface",
+    "title": "Home Server Monitoring Dashboard",
+    "content": "Our project is a hardware interface designed to monitor the performance of home lab servers. We are building a system that pulls CPU, RAM, and temperature data and displays it on a custom-built dashboard. We need a backend developer to handle the data collection scripts and a project manager to oversee the hardware testing phases. We are aiming for a 'B or better' and will be working on this consistently during the week to ensure we don't fall behind on the technical integration."
+  },
+  {
+    "timezone": "EST",
+    "availability": "Weekend",
+    "dedication": "1-3",
+    "role": ["designer"],
+    "grade": "C or better",
+    "category": "Chat bot",
+    "title": "Simple Library FAQ Bot",
+    "content": "We are creating a basic chatbot for a local library that answers common questions about hours, renewals, and locations. We need a designer to help sketch out the conversation flows and create a friendly icon for the bot. This project is very straightforward and aimed at a 'C or better.' If you are looking for a low-commitment team and want to focus on simple UI/UX principles, this is the perfect spot for you. We will meet briefly on Saturdays to sync up."
+  },
+  {
+    "timezone": "CST",
+    "availability": "All hours",
+    "dedication": "20+",
+    "role": ["frontend", "backend"],
+    "grade": "A",
+    "category": "Authentication interface",
+    "title": "Zero-Knowledge Proof Login",
+    "content": "We are pushing the boundaries of security with an authentication interface based on Zero-Knowledge Proofs. This is a highly technical project aimed at an 'A' grade, and we need dedicated frontend and backend developers who aren't afraid of complex math and security protocols. We are working around the clock to get this prototype running, so we need people with high availability and a passion for cybersecurity. This will be a standout project for any resume."
+  },
+  {
+    "timezone": "PST",
+    "availability": "After work hours",
+    "dedication": "3-10",
+    "role": ["project management", "designer"],
+    "grade": "B or better",
+    "category": "Mobile app",
+    "title": "Local Farmers Market Locator",
+    "content": "Our mobile app project aims to connect local residents with pop-up farmers markets and artisanal vendors. We need a project manager to coordinate with potential vendors for data and a designer to create a rustic, welcoming mobile interface. We are aiming for a 'B or better' and will be working in the evenings after 5 PM PST. It's a great project for anyone interested in community-building and mobile UI design."
+  },
+  {
+    "timezone": "Others",
+    "availability": "Weekday",
+    "dedication": "10-20",
+    "role": ["frontend"],
+    "grade": "A",
+    "category": "AI platform",
+    "title": "AI Code Review Assistant",
+    "content": "We are building an AI platform that provides real-time feedback on code quality and security vulnerabilities for student submissions. We need a talented frontend developer to build a code editor interface that highlights issues directly in the UI. We are aiming for an 'A' and expect to put in solid hours during the week to refine the user experience. If you have experience with React-Monaco or similar libraries, we would love to have you on the team."
+  },
+  {
+    "timezone": "EST",
+    "availability": "Weekend",
+    "dedication": "3-10",
+    "role": ["backend", "designer"],
+    "grade": "B or better",
+    "category": "Media discovery",
+    "title": "Podcast Episode Suggestion Engine",
+    "content": "Our media discovery tool, 'PodCast,' uses NLP to suggest specific podcast episodes based on a user's current interests rather than just whole shows. We need a backend developer for the NLP processing and a designer to build a sleek audio-focused interface. We will be working on this during our weekend sessions and are aiming for a 'B or better.' It's a fun project for anyone who loves podcasts and wants to work with metadata and recommendation algorithms."
+  },
+  {
+    "timezone": "CST",
+    "availability": "After work hours",
+    "dedication": "1-3",
+    "role": ["project management"],
+    "grade": "C or better",
+    "category": "Collaborative tool",
+    "title": "Basic Group Bill Splitter",
+    "content": "This is a simple collaborative tool aimed at splitting bills among friends after a meal. We need a project manager to keep our team of two organized and ensure we follow the project requirements for the course. We are only aiming for a 'C or better' and plan to keep things very simple. We will meet for an hour on Wednesday evenings. If you are looking for an easy-going project and want to practice your organizational skills, join us!"
+  },
+  {
+    "timezone": "EST",
+    "availability": "Weekday",
+    "dedication": "10-20",
+    "role": ["frontend", "designer"],
+    "grade": "A",
+    "category": "Hardware interface",
+    "title": "Smart Garden IoT Controller",
+    "content": "We are building a hardware interface for a smart garden system that monitors soil moisture and light levels. We need a frontend developer to create a beautiful data visualization dashboard and a designer to help with the physical layout of the UI on a small touchscreen. We are aiming for an 'A' and will be working on this consistently during the week. This project will involve a lot of CSS animations and SVG work to make the garden data look 'alive' and engaging."
+  },
+  {
+    "timezone": "PST",
+    "availability": "Weekend",
+    "dedication": "3-10",
+    "role": ["backend"],
+    "grade": "B or better",
+    "category": "Social platform",
+    "title": "Skill-Swap Network",
+    "content": "Our social platform allows students to trade skills—like 'I'll teach you Python if you teach me Guitar.' We need a backend developer to manage the user profiles and the skill-matching database. We are aiming for a 'B or better' and will be doing most of our work on Saturdays and Sundays. It's a community-focused project that's great for someone who wants to work on a social application without a massive midweek time commitment."
+  },
+  {
+    "timezone": "CST",
+    "availability": "After work hours",
+    "dedication": "10-20",
+    "role": ["frontend", "project management"],
+    "grade": "A",
+    "category": "AI platform",
+    "title": "Personalized AI Study Planner",
+    "content": "We are developing an AI platform that analyzes a student's syllabus and generates a personalized study schedule based on their past performance. We need a frontend dev to build the calendar interface and a project manager to help us stay on track with our 'A' grade goals. We'll be working 10 to 20 hours a week, primarily in the evenings. If you are passionate about education technology and AI, this is the project for you!"
+  },
+  {
+    "timezone": "Others",
+    "availability": "Weekday",
+    "dedication": "3-10",
+    "role": ["designer", "backend"],
+    "grade": "B or better",
+    "category": "Mobile app",
+    "title": "Zero-Waste Grocery Guide",
+    "content": "Our mobile app helps users find grocery stores that offer bulk-buy options and zero-waste packaging. We need a designer to create a clean, 'green' aesthetic and a backend developer to handle the location-based data. We'll be working during the week, mostly in the afternoons. We are aiming for a 'B or better' and want to create a tool that helps people live more sustainably while building a solid mobile app prototype."
+  },
+  {
+    "timezone": "EST",
+    "availability": "All hours",
+    "dedication": "1-3",
+    "role": ["project management"],
+    "grade": "C or better",
+    "category": "Chat bot",
+    "title": "Weather & Outfit Bot",
+    "content": "We are building a simple chatbot that tells you what to wear based on the current weather forecast. We need a project manager to oversee our tiny team and ensure we submit our weekly updates on time. This is a very low-commitment project aimed at a 'C or better.' Because we are 'All hours,' we can sync up whenever it's convenient for you. It's a great choice if you just want to get the course credit with minimal fuss."
+  },
+  {
+    "timezone": "PST",
+    "availability": "After work hours",
+    "dedication": "10-20",
+    "role": ["frontend", "backend"],
+    "grade": "A",
+    "category": "Collaborative tool",
+    "title": "Real-time Music Jam Room",
+    "content": "Our collaborative tool allows musicians to play together in a virtual space with low-latency audio. We need a full-stack team (frontend/backend) to handle the complex audio streaming and user interface. We are aiming for an 'A' and will be working 10 to 20 hours a week in the evenings. This is a technically challenging project that will involve WebRTC and advanced JavaScript, perfect for anyone looking to push their technical limits."
+  },
+  {
+    "timezone": "CST",
+    "availability": "Weekday",
+    "dedication": "3-10",
+    "role": ["designer"],
+    "grade": "B or better",
+    "category": "Media discovery",
+    "title": "Art History Discovery Portal",
+    "content": "We are building a media discovery tool that lets users explore art history through interactive timelines and high-resolution galleries. We need a designer who has a good eye for layout and typography to make the portal feel like a digital museum. We'll be working on this during the week and are aiming for a 'B or better.' It's a visually driven project that would be a fantastic addition to any design portfolio."
+  },
+  {
+    "timezone": "EST",
+    "availability": "Weekend",
+    "dedication": "1-3",
+    "role": ["backend"],
+    "grade": "B or better",
+    "category": "Authentication interface",
+    "title": "QR-Code Login System",
+    "content": "Our project is to build a simple authentication interface that allows users to log in to a web app by scanning a QR code with their phone. We need a backend developer to handle the secure token generation and validation logic. This is a focused project with a light workload, aimed at a 'B or better.' We'll be meeting on Sunday mornings. It's a good way to learn about modern authentication methods without a huge time investment."
+  },
+  {
+    "timezone": "PST",
+    "availability": "Weekday",
+    "dedication": "10-20",
+    "role": ["project management", "frontend"],
+    "grade": "A",
+    "category": "Social platform",
+    "title": "Professional Mentorship Matcher",
+    "content": "We are building a social platform that matches university alumni with current students for mentorship opportunities. We need a project manager to handle outreach and a frontend developer to build the profile and matching UI. We are aiming for an 'A' and will be treating this like a startup project. We expect 10 to 20 hours of work per week during normal business hours. If you want to build a tool that actually helps people with their careers, join us."
+  },
+  {
+    "timezone": "Others",
+    "availability": "After work hours",
+    "dedication": "3-10",
+    "role": ["designer", "backend"],
+    "grade": "B or better",
+    "category": "AI platform",
+    "title": "AI Recipe Generator from Scraps",
+    "content": "Our AI platform takes a list of ingredients you have left in your fridge and generates a custom recipe. We need a designer for the kitchen-themed UI and a backend developer to integrate with an LLM for recipe generation. We'll be working in the evenings and are aiming for a 'B or better.' It's a fun, practical project that combines AI with everyday utility, and we'd love to have some creative teammates join us."
+  },
+  {
+    "timezone": "EST",
+    "availability": "Weekend",
+    "dedication": "10-20",
+    "role": ["frontend", "backend"],
+    "grade": "A",
+    "category": "Mobile app",
+    "title": "Offline Survival Map App",
+    "content": "We are developing a mobile app that provides offline maps and survival guides for hikers. We need a frontend and backend team to handle the heavy data storage and map rendering. We are aiming for an 'A' and will be putting in significant hours on the weekends to get this right. This project is for those who are serious about mobile development and want to work on something that could be a lifesaver in the real world."
+  },
+  {
+    "timezone": "CST",
+    "availability": "All hours",
+    "dedication": "1-3",
+    "role": ["designer"],
+    "grade": "C or better",
+    "category": "Chat bot",
+    "title": "Emoji-Only Translator Bot",
+    "content": "This is a fun, lighthearted project where we build a chatbot that only responds in emojis. We need a designer to help us define the 'personality' of the bot through visual cues and emoji selection. We are aiming for a 'C or better' and have very low commitment requirements—just 1 to 3 hours a week. Since we are 'All hours,' we are very flexible on when we meet. Great for someone who needs a fun break from harder courses."
+  },
+  {
+    "timezone": "PST",
+    "availability": "Weekday",
+    "dedication": "3-10",
+    "role": ["backend", "project management"],
+    "grade": "B or better",
+    "category": "Collaborative tool",
+    "title": "Group Trip Planner Hub",
+    "content": "Our project is a collaborative tool for groups of friends to plan trips together, including itinerary building and expense tracking. We need a backend developer to manage the shared data and a project manager to keep the team organized. We'll be working during the week and are aiming for a 'B or better.' It's a practical tool that solves the headache of group travel, and we want to make it as user-friendly as possible."
+  },
+  {
+    "timezone": "EST",
+    "availability": "After work hours",
+    "dedication": "10-20",
+    "role": ["frontend", "designer"],
+    "grade": "A",
+    "category": "Hardware interface",
+    "title": "MIDI Controller Web Interface",
+    "content": "We are building a hardware interface that allows users to map custom MIDI controllers to web-based synthesizers. We need a frontend dev who is comfortable with the Web MIDI API and a designer to build a high-tech, dark-themed UI. We are aiming for an 'A' and will be working 10 to 20 hours a week in the evenings. If you love music and high-performance frontend code, this project will be right up your alley."
+  },
+  {
+    "timezone": "Others",
+    "availability": "Weekend",
+    "dedication": "3-10",
+    "role": ["backend"],
+    "grade": "B or better",
+    "category": "Media discovery",
+    "title": "Rare Book Finder Tool",
+    "content": "Our media discovery tool helps bibliophiles find rare and out-of-print books across various online marketplaces. We need a backend developer to build the scrapers and the search engine logic. We'll be working on the weekends and are aiming for a 'B or better.' It's a great project for someone who loves data and wants to build a search tool that actually finds things mainstream engines miss."
+  },
+  {
+    "timezone": "CST",
+    "availability": "Weekday",
+    "dedication": "1-3",
+    "role": ["frontend"],
+    "grade": "C or better",
+    "category": "Authentication interface",
+    "title": "Classic Password Strength Tester",
+    "content": "We are building a simple authentication interface that gives users real-time feedback on their password strength using various security metrics. We need a frontend developer to build the UI and the regex-based logic. This is a very light project aimed at a 'C or better' grade. We'll meet briefly during the week to sync up. Perfect for anyone who wants to practice basic React form handling without a massive time commitment."
+  },
+  {
+    "timezone": "PST",
+    "availability": "All hours",
+    "dedication": "20+",
+    "role": ["designer", "project management"],
+    "grade": "A",
+    "category": "AI platform",
+    "title": "AI-Driven Accessibility Auditor",
+    "content": "We are building a massive AI platform that scans websites for accessibility issues and suggests fixes. We need a designer who is an expert in WCAG standards and a project manager who can handle a large-scale technical project. We are aiming for an 'A' and have very high expectations for the quality of our work. If you are passionate about web accessibility and want to build a professional-grade tool, we need you on our team."
+  },
+  {
+    "timezone": "EST",
+    "availability": "After work hours",
+    "dedication": "3-10",
+    "role": ["backend", "frontend"],
+    "grade": "B or better",
+    "category": "Social platform",
+    "title": "Local Neighborhood Book Swap",
+    "content": "Our social platform is a simple way for neighbors to list books they are willing to lend or trade. we need a full-stack effort for user accounts and book listings. We are aiming for a 'B or better' and will be working in the evenings. It's a cozy, community-focused project that's perfect for building a solid portfolio piece that demonstrates full-stack capabilities."
+  },
+  {
+    "timezone": "Others",
+    "availability": "Weekend",
+    "dedication": "10-20",
+    "role": ["designer", "frontend"],
+    "grade": "A",
+    "category": "Mobile app",
+    "title": "Language Learning Flashcard App",
+    "content": "We are building a mobile app that uses spaced repetition for language learning. We need a designer to create a focused UI and a frontend developer to build the app using React Native or similar. We are aiming for an 'A' and will be working heavily on the weekends. If you are a fan of apps like Anki or Duolingo and want to build your own version with a twist, come join us."
+  },
+  {
+    "timezone": "CST",
+    "availability": "After work hours",
+    "dedication": "1-3",
+    "role": ["project management"],
+    "grade": "B or better",
+    "category": "Chat bot",
+    "title": "Daily Motivation & Quote Bot",
+    "content": "Our project is a simple chatbot that sends users a daily motivational quote and a productivity tip. We need a project manager to keep our two developers on track and handle the final documentation. We are aiming for a 'B or better' and only require a tiny bit of your time each week in the evenings. It's a positive, low-stress project that's great for fulfilling a team role requirement."
+  },
+  {
+    "timezone": "EST",
+    "availability": "Weekday",
+    "dedication": "3-10",
+    "role": ["backend", "designer"],
+    "grade": "B or better",
+    "category": "Collaborative tool",
+    "title": "Shared Pet Care Tracker",
+    "content": "We are building a collaborative tool for families and roommates to track pet feeding, walking, and medication schedules. We need a backend developer for the shared data and a designer to make the app look adorable and easy to use. We'll be working during the week and are aiming for a 'B or better.' It's a fun, practical project that's easy to explain to potential employers."
+  },
+  {
+    "timezone": "PST",
+    "availability": "Weekend",
+    "dedication": "10-20",
+    "role": ["frontend", "project management"],
+    "grade": "A",
+    "category": "Hardware interface",
+    "title": "Drone Telemetry Visualizer",
+    "content": "We are building a hardware interface that visualizes live telemetry data from a drone, including altitude, speed, and GPS location. We need a frontend developer to create a high-performance dashboard and a project manager to oversee our development sprints. We are aiming for an 'A' and will be working hard on the weekends. If you are into aerospace or high-data-rate UIs, this is the project for you."
+  },
+  {
+    "timezone": "CST",
+    "availability": "All hours",
+    "dedication": "3-10",
+    "role": ["frontend"],
+    "grade": "B or better",
+    "category": "Media discovery",
+    "title": "Global News Map Explorer",
+    "content": "Our media discovery tool is an interactive map that lets users click on different regions to see local news stories. We need a frontend developer to build the map interface using a library like Leaflet or Mapbox. We are aiming for a 'B or better' and have very flexible meeting times. It's a great project for anyone who wants to learn about interactive data visualization and news APIs."
+  },
+  {
+    "timezone": "Others",
+    "availability": "Weekday",
+    "dedication": "1-3",
+    "role": ["backend"],
+    "grade": "C or better",
+    "category": "Authentication interface",
+    "title": "Simple Email-Only Login",
+    "content": "We are building a minimalist authentication interface that uses magic links sent via email instead of passwords. We need a backend developer to handle the email sending and token verification. This is a very small project aimed at a 'C or better.' We'll meet briefly during the week to stay on track. If you want to learn about passwordless auth without a big commitment, this is it."
+  },
+  {
+    "timezone": "EST",
+    "availability": "After work hours",
+    "dedication": "20+",
+    "role": ["designer", "backend"],
+    "grade": "A",
+    "category": "Social platform",
+    "title": "Civic Engagement Platform",
+    "content": "We are building a large-scale social platform that helps citizens connect with local government officials and vote on community initiatives. We need a designer to handle complex information architecture and a backend developer to build a secure voting system. We are aiming for an 'A' and will be working 20+ hours a week in the evenings. This is a serious project for someone who wants to build a portfolio piece that demonstrates high-level engineering and design skills."
+  },
+  {
+    "timezone": "PST",
+    "availability": "Weekend",
+    "dedication": "3-10",
+    "role": ["frontend", "project management"],
+    "grade": "B or better",
+    "category": "Mobile app",
+    "title": "Plant Watering Reminder App",
+    "content": "Our mobile app project is a simple way for plant owners to set watering and fertilizing reminders. We need a frontend dev to build the UI and a project manager to keep us organized. We'll be working on the weekends and are aiming for a 'B or better.' It's a great project for anyone who wants to practice building a CRUD-based mobile application with a clean, modern look."
+  },
+  {
+    "timezone": "CST",
+    "availability": "Weekday",
+    "dedication": "10-20",
+    "role": ["designer", "backend"],
+    "grade": "A",
+    "category": "AI platform",
+    "title": "AI-Powered Fashion Stylist",
+    "content": "We are building an AI platform that suggests outfits based on your existing wardrobe and the weather. We need a designer for the high-fashion UI and a backend developer to handle the image processing and LLM integration. We are aiming for an 'A' and will be working during the week. This is a cutting-edge project that will look amazing on a resume, and we're looking for teammates who are as excited about AI as we are."
+  },
+  {
+    "timezone": "Others",
+    "availability": "After work hours",
+    "dedication": "1-3",
+    "role": ["frontend"],
+    "grade": "C or better",
+    "category": "Chat bot",
+    "title": "Basic Unit Converter Bot",
+    "content": "We are building a simple chatbot that converts units like Celsius to Fahrenheit or Miles to Kilometers. We need a frontend developer to build the chat UI. This is a very low-stress project aimed at a 'C or better' grade. We'll meet briefly in the evenings. If you are looking for an easy-going team and want to practice your basic JavaScript and UI skills, come join us!"
+  },
+  {
+    "timezone": "EST",
+    "availability": "All hours",
+    "dedication": "3-10",
+    "role": ["project management", "designer"],
+    "grade": "B or better",
+    "category": "Collaborative tool",
+    "title": "Shared Vacation Budgeter",
+    "content": "Our project is a collaborative tool that helps friends track their spending during a vacation in real-time. We need a project manager and a designer to help build out the prototype. We have flexible availability and are aiming for a 'B or better.' It's a fun, practical tool that focuses on clean UI and real-time data updates, and we'd love to have some organized and creative people on the team."
+  },
+  {
+    "timezone": "PST",
+    "availability": "Weekday",
+    "dedication": "10-20",
+    "role": ["backend", "frontend"],
+    "grade": "A",
+    "category": "Hardware interface",
+    "title": "Industrial Sensor Monitor",
+    "content": "We are building a hardware interface that monitors data from industrial-grade sensors in a warehouse environment. We need a backend and frontend team to build the data pipeline and the visualization dashboard. We are aiming for an 'A' and will be working consistently during the week. This project will involve a lot of real-time data handling and is perfect for anyone interested in industrial IoT and high-performance dashboards."
+  },
+  {
+    "timezone": "CST",
+    "availability": "Weekend",
+    "dedication": "3-10",
+    "role": ["designer", "frontend"],
+    "grade": "B or better",
+    "category": "Media discovery",
+    "title": "Classical Music Library Explorer",
+    "content": "Our media discovery tool focuses on helping users explore the vast world of classical music through composer timelines and era-based filters. We need a designer and a frontend developer to build a sophisticated, elegant interface. We'll be working on the weekends and are aiming for a 'B or better.' It's a culturally rich project that will allow you to focus on high-quality typography and clean UI design."
+  },
+  {
+    "timezone": "Others",
+    "availability": "Weekday",
+    "dedication": "1-3",
+    "role": ["backend"],
+    "grade": "B or better",
+    "category": "Authentication interface",
+    "title": "Social Login Integrator",
+    "content": "We are building an authentication interface that demonstrates how to integrate with multiple social login providers like Google and GitHub. We need a backend developer to handle the OAuth flows. This is a focused project with a light workload, aimed at a 'B or better.' We'll be meeting briefly during the week. It's a great way to learn about modern auth standards without a massive time commitment."
+  },
+  {
+    "timezone": "EST",
+    "availability": "After work hours",
+    "dedication": "20+",
+    "role": ["frontend", "project management"],
+    "grade": "A",
+    "category": "Social platform",
+    "title": "Hyper-Local Marketplace",
+    "content": "We are building a social platform for neighbors to buy, sell, and trade items within a very small radius. We need a frontend developer and a project manager to help us build out the complex user interface and manage our development milestones. We are aiming for an 'A' and will be working 20+ hours a week in the evenings. If you want to build a tool that actually gets used by your local community, come join us."
+  },
+  {
+    "timezone": "PST",
+    "availability": "Weekend",
+    "dedication": "3-10",
+    "role": ["designer", "backend"],
+    "grade": "B or better",
+    "category": "Mobile app",
+    "title": "Local Dog Park Finder",
+    "content": "Our mobile app project helps dog owners find the best local dog parks based on reviews and amenities. We need a designer and a backend developer to build out the app. We'll be working on the weekends and are aiming for a 'B or better.' It's a fun, lighthearted project that's perfect for building a solid mobile app prototype for your portfolio."
+  },
+  {
+    "timezone": "CST",
+    "availability": "Weekday",
+    "dedication": "10-20",
+    "role": ["frontend", "designer"],
+    "grade": "A",
+    "category": "AI platform",
+    "title": "AI-Powered Writing Assistant",
+    "content": "We are building an AI platform that provides real-time suggestions and improvements for student essays. We need a frontend developer and a designer to build a clean, focused writing environment. We are aiming for an 'A' and will be working during the week. This is a high-impact project that uses the latest LLM tech to actually help students improve their writing skills."
+  },
+  {
+    "timezone": "Others",
+    "availability": "After work hours",
+    "dedication": "1-3",
+    "role": ["backend"],
+    "grade": "C or better",
+    "category": "Chat bot",
+    "title": "Simple Joke Teller Bot",
+    "content": "Our project is a simple chatbot that tells a new joke every day. We need a backend developer to handle the joke database and basic bot logic. We are aiming for a 'C or better' and have very low commitment requirements. We'll meet briefly in the evenings to sync up. If you're looking for a fun, easy-going team to finish the course requirement, this is the perfect spot for you!"
+  },
+  {
+    "timezone": "EST",
+    "availability": "All hours",
+    "dedication": "3-10",
+    "role": ["project management", "frontend"],
+    "grade": "B or better",
+    "category": "Collaborative tool",
+    "title": "Shared Holiday Wishlist",
+    "content": "We are building a collaborative tool for families to create and share holiday wishlists to avoid duplicate gifts. We need a project manager and a frontend developer to build the UI. We have flexible availability and are aiming for a 'B or better.' It's a fun, practical project that's perfect for learning about shared data and user-friendly design."
+  },
+  {
+    "timezone": "PST",
+    "availability": "Weekday",
+    "dedication": "10-20",
+    "role": ["designer", "backend"],
+    "grade": "A",
+    "category": "Hardware interface",
+    "title": "Solar Panel Performance Monitor",
+    "content": "We are building a hardware interface that monitors the real-time energy production of solar panels. We need a designer and a backend developer to build the data pipeline and the visualization dashboard. We are aiming for an 'A' and will be working consistently during the week. This project is perfect for anyone interested in green energy and high-performance data visualization."
+  },
+  {
+    "timezone": "CST",
+    "availability": "Weekend",
+    "dedication": "3-10",
+    "role": ["frontend", "project management"],
+    "grade": "B or better",
+    "category": "Media discovery",
+    "title": "Sci-Fi Book Discovery Tool",
+    "content": "Our media discovery tool focuses on helping users find the best science fiction books based on specific sub-genres like cyberpunk or space opera. We need a frontend developer and a project manager to build out the discovery interface. We'll be working on the weekends and are aiming for a 'B or better.' It's a fun, nerdy project that will allow you to build a unique and engaging UI for book lovers."
+  },
+  {
+    "timezone": "Others",
+    "availability": "Weekday",
+    "dedication": "1-3",
+    "role": ["designer"],
+    "grade": "C or better",
+    "category": "Authentication interface",
+    "title": "Minimalist Login Screen Demo",
+    "content": "We are building a simple authentication interface that focuses on a super clean, minimalist design for a login screen. We need a designer to help us get the aesthetic just right. We are aiming for a 'C or better' and have very low commitment requirements. We'll meet briefly during the week. If you're looking for a simple project to practice your UI design skills, come join us!"
+  }
+]
