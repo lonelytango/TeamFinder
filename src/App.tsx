@@ -1,5 +1,5 @@
 import './App.css';
-import TeamFinder from './pages/TeamFinder';
+import { TeamFinder } from './pages';
 
 function App() {
 	return <TeamFinder />;
