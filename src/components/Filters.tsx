@@ -29,19 +29,20 @@ export default function Filters({ onFilterChange, onClearAll, activeFilters }: F
 	const hasActiveFilters = Object.values(activeFilters).some((v) => v !== '');
 
 	return (
-		<div className="flex items-center gap-4 border border-black p-4 bg-white mb-4 relative z-50">
+		<div className="flex items-center gap-4 rounded-xl border border-black/15 bg-white p-4 mb-4 shadow-md relative z-50">
 			{FILTER_CONFIG.map((config) => (
 				<div key={config.key} className="relative">
 					<button
+						type="button"
 						onClick={() => setOpenDropdown(openDropdown === config.key ? null : config.key)}
-						className={`flex items-center gap-2 px-3 py-1 cursor-pointer hover:bg-gray-50 border ${activeFilters[config.key as keyof FilterState] ? 'border-black bg-yellow-50' : 'border-transparent'}`}
+						className={`flex items-center gap-2 rounded-lg border px-3 py-1.5 text-sm shadow-sm cursor-pointer transition-shadow hover:bg-gray-50 hover:shadow-md ${activeFilters[config.key as keyof FilterState] ? 'border-black/25 bg-yellow-50' : 'border-black/10 bg-white'}`}
 					>
 						<span className="font-medium text-md">{config.label}</span>
 						<span className="text-[10px]">▼</span>
 					</button>
 
 					{openDropdown === config.key && (
-						<div className="absolute top-full left-0 mt-1 w-48 border border-black bg-white shadow-md">
+						<div className="absolute top-full left-0 z-10 mt-1 w-48 overflow-hidden rounded-lg border border-black/15 bg-white shadow-lg">
 							<div
 								className="p-2 hover:bg-gray-100 cursor-pointer text-xs italic text-gray-400 border-b border-gray-100"
 								onClick={() => {
@@ -70,8 +71,9 @@ export default function Filters({ onFilterChange, onClearAll, activeFilters }: F
 
 			{hasActiveFilters && (
 				<button
+					type="button"
 					onClick={onClearAll}
-					className="ml-auto text-xs font-bold text-red-600 underline cursor-pointer hover:text-red-800"
+					className="ml-auto rounded-lg px-2 py-1 text-xs font-bold text-red-600 underline shadow-sm cursor-pointer hover:bg-red-50 hover:text-red-800 hover:shadow-md"
 				>
 					CLEAR ALL FILTERS
 				</button>

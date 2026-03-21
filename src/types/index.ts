@@ -1,5 +1,3 @@
-export type ViewMode = 'vacancy' | 'grid' | 'comm';
-
 export interface Team {
 	timezone: string;
 	availability: string;
@@ -9,6 +7,11 @@ export interface Team {
 	category: string;
 	title: string;
 	content: string;
+	author: string;
+	/** Members already on the team */
+	filled: number;
+	/** Target team size (capacity) */
+	teamSize: number;
 }
 
 export interface FilterState {
