@@ -2,6 +2,7 @@ import { useState } from 'react';
 import type { Team } from '../../types';
 import { formatDedicationTag } from '../../utils/dedication';
 import JoinRequestModal from '../JoinRequestModal';
+import RequestSentToast from '../RequestSentToast';
 import VacancyBadge from '../VacancyBadge';
 
 interface FinalViewProps {
@@ -64,14 +65,24 @@ function tagClass(kind: TagKind, text: string): string {
 
 export default function FinalView({ filteredData }: FinalViewProps) {
 	const [modalTeam, setModalTeam] = useState<Team | null>(null);
+	const [toastMessage, setToastMessage] = useState<string | null>(null);
+
+	const handleRequestSent = () => {
+		if (!modalTeam) return;
+		const author = modalTeam.author;
+		setModalTeam(null);
+		setToastMessage(`Request is sent to ${author}`);
+	};
 
 	return (
 		<main className="grow w-full min-w-0">
+			<RequestSentToast message={toastMessage} onDismiss={() => setToastMessage(null)} />
 			{modalTeam && (
 				<JoinRequestModal
 					key={modalTeam.content}
 					team={modalTeam}
 					onClose={() => setModalTeam(null)}
+					onRequestSent={handleRequestSent}
 				/>
 			)}
 			<div className="grid grid-cols-[repeat(auto-fit,minmax(min(100%,24rem),1fr))] gap-5">

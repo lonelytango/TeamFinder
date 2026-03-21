@@ -5,9 +5,10 @@ import CommTeamDetail from './CommTeamDetail';
 interface JoinRequestModalProps {
 	team: Team;
 	onClose: () => void;
+	onRequestSent?: () => void;
 }
 
-export default function JoinRequestModal({ team, onClose }: JoinRequestModalProps) {
+export default function JoinRequestModal({ team, onClose, onRequestSent }: JoinRequestModalProps) {
 	useEffect(() => {
 		const prevOverflow = document.body.style.overflow;
 		document.body.style.overflow = 'hidden';
@@ -52,7 +53,7 @@ export default function JoinRequestModal({ team, onClose }: JoinRequestModalProp
 				<h2 id="join-request-modal-title" className="sr-only">
 					{team.title}
 				</h2>
-				<CommTeamDetail team={team} />
+				<CommTeamDetail team={team} onRequestSubmit={onRequestSent} />
 			</div>
 		</div>
 	);

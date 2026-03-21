@@ -3,9 +3,10 @@ import type { Team } from '../types';
 
 interface CommTeamDetailProps {
 	team: Team;
+	onRequestSubmit?: () => void;
 }
 
-export default function CommTeamDetail({ team }: CommTeamDetailProps) {
+export default function CommTeamDetail({ team, onRequestSubmit }: CommTeamDetailProps) {
 	const [requestText, setRequestText] = useState('');
 
 	return (
@@ -36,6 +37,7 @@ export default function CommTeamDetail({ team }: CommTeamDetailProps) {
 					</span>
 					<button
 						type="button"
+						onClick={() => onRequestSubmit?.()}
 						className="rounded-lg border border-black/20 bg-white px-8 py-3 text-base font-bold shadow-md hover:bg-black hover:text-white hover:shadow-lg transition-all cursor-pointer"
 					>
 						Request To Join
