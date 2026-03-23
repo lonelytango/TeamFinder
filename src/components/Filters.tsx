@@ -30,15 +30,30 @@ export default function Filters({ onFilterChange, onClearAll, activeFilters }: F
 
 	return (
 		<div className="flex items-center gap-4 rounded-xl border border-black/15 bg-white p-4 mb-4 shadow-md relative z-50">
-			{FILTER_CONFIG.map((config) => (
+			{FILTER_CONFIG.map((config) => {
+				const selected = activeFilters[config.key as keyof FilterState];
+				return (
 				<div key={config.key} className="relative">
 					<button
 						type="button"
 						onClick={() => setOpenDropdown(openDropdown === config.key ? null : config.key)}
-						className={`flex items-center gap-2 rounded-lg border px-3 py-1.5 text-sm shadow-sm cursor-pointer transition-shadow hover:bg-gray-50 hover:shadow-md ${activeFilters[config.key as keyof FilterState] ? 'border-black/25 bg-yellow-50' : 'border-black/10 bg-white'}`}
+						className={`flex min-w-0 max-w-sm items-center gap-2 rounded-lg border px-3 py-1.5 text-sm shadow-sm cursor-pointer transition-shadow hover:bg-gray-50 hover:shadow-md ${selected ? 'border-black/25 bg-yellow-50' : 'border-black/10 bg-white'}`}
 					>
-						<span className="font-medium text-md">{config.label}</span>
-						<span className="text-[10px]">▼</span>
+						<span className="shrink-0 font-medium text-md">{config.label}</span>
+						{selected ? (
+							<>
+								<span className="shrink-0 text-gray-400" aria-hidden>
+									·
+								</span>
+								<span
+									className="min-w-0 max-w-48 truncate font-semibold text-gray-900"
+									title={selected}
+								>
+									{selected}
+								</span>
+							</>
+						) : null}
+						<span className="shrink-0 text-[10px]">▼</span>
 					</button>
 
 					{openDropdown === config.key && (
@@ -67,7 +82,8 @@ export default function Filters({ onFilterChange, onClearAll, activeFilters }: F
 						</div>
 					)}
 				</div>
-			))}
+				);
+			})}
 
 			{hasActiveFilters && (
 				<button
